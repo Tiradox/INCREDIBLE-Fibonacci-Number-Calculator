@@ -9,7 +9,7 @@ namespace INCREDIBLE_Fibonacci_Number_Calculator
             Console.Write("Введите n\n> ");
             int n = Convert.ToInt32(Console.ReadLine());
 
-            Console.Write($"Вывод: {Fib(n)}");
+            Console.Write($"Вывод: {Fib(n - 1)}");
         }
 
         static long Fib(long n)
